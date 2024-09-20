@@ -1,0 +1,7 @@
+[package]
+name = "shielded_csv"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+secp256k1 = { version = "0.29", features = ["global-context"] }
